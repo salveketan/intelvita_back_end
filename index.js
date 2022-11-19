@@ -11,7 +11,7 @@ app.use("", require("./controller/userController"))
 app.use("", require("./controller/productController"))
 app.use("", require('./controller/cartContrller'))
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 5000;
 app.set("port", PORT)
 
 app.listen(PORT, () => {
